@@ -7,3 +7,6 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+examples/coverage.txt
+examples/coverage/
+vendor/
