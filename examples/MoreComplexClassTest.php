@@ -54,7 +54,8 @@ class MoreComplexClassTest extends PHPUnit_Framework_TestCase {
  * @return void
  */
 	public function testSphereVolume() {
-
+		/*
+		// Mockery Code
 		// This mocked Class contains a fake version of intToPower, real sphereVolume and generateSomeHtml
 		$MoreComplexClassMock = $this->getMock('MoreComplexClass', array('intToPower'));
 
@@ -65,9 +66,9 @@ class MoreComplexClassTest extends PHPUnit_Framework_TestCase {
 			->will($this->returnValue(8));
 
 		$this->assertEquals(33.510321638, $MoreComplexClassMock->sphereVolume(2), '', 0.001);
+		*/
 
-
-		//$this->assertEquals(33.510321638, $this->MoreComplexClass->sphereVolume(2), '', 0.001);
+		$this->assertEquals(33.510321638, $this->MoreComplexClass->sphereVolume(2), '', 0.001);
 
 	}
 
